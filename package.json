@@ -1,0 +1,17 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "CLI-based background job queue system with retries, exponential backoff and a Dead Letter Queue",
+  "main": "src/index.js",
+  "bin": {
+    "queuectl": "./bin/queuectl.js"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "commander": "^12.1.0"
+  }
+}
