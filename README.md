@@ -1,4 +1,4 @@
-# queuectl
+# QueueCTL
 
 A CLI-based background job queue system with multi-worker support, automatic
 retries with exponential backoff, a Dead Letter Queue (DLQ), and persistent
